@@ -14,4 +14,4 @@ jobs:
         - run: cd /Build && ninja run
         - run: cd /Build && cpack -G DEB
         - store_artifacts:
-          path: /Build/dist/*.deb
+            path: /Build/dist/*.deb
