@@ -13,5 +13,5 @@ jobs:
         - run: cd build && ninja && ninja install && ldconfig
         - run: cd build && ninja run
         - run: cd build && cpack -G DEB
-        - store-artifacts:
+        - store_artifacts:
             path: build/srccomplexity-1.0.0-Linux.deb
